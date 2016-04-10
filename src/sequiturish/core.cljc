@@ -19,7 +19,7 @@
 
 (def terminal? (complement rule-symbol?))
 
-(defn rule-id [r] (.-id r))
+(defn rule-id [^RuleSymbol r] (.-id r))
 
 ;;
 ;; Grammar
